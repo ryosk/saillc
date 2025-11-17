@@ -1,0 +1,8 @@
+{
+  "name": "sai-llc",
+  "version": "1.0.0",
+  "description": "SAI LLC Website",
+  "scripts": {
+    "deploy": "echo 'No build needed for static site'"
+  }
+}
