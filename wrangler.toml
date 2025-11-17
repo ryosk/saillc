@@ -1,7 +1,8 @@
-# Cloudflare Pages用の最小限の設定
+# Cloudflare Workers/Pages 設定
 name = "sai-llc"
 compatibility_date = "2025-11-17"
 
-# 静的ファイルの設定
-[build]
-command = ""  # ビルド不要
+# 静的アセットの設定
+# カレントディレクトリ（プロジェクトルート）を静的アセットとして指定
+[assets]
+directory = "./"
